@@ -1,0 +1,122 @@
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
+	background-color: #7c6fec;
+}
+body {
+    background-color: #c2a9c9;
+    background:url(./azul1.jpg)no-repeat;
+    font-family: Rubik, Arial;
+  }
+  h1 {
+    text-align: center;
+    color: white;
+    line-height: 100px;
+    margin: 0;
+  }
+
+#logo {
+	font-size: 24px;
+	font-weight: bold;
+}
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+nav li {
+	margin-left: 65px;
+	
+}
+nav a {
+	text-decoration: none;
+	color: #333;
+	padding: 5px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+nav a:hover {
+	background-color: #ccc;
+}
+.encabezado{
+    max-width: 500px;
+  margin: 0 auto;
+  padding: 50px;
+  border-radius: 5px;
+    left: 350;
+    text-align: center;
+        font-size: 18px;
+        line-height: 1.5; 
+}
+.encabezado2{
+    max-width: 300px;
+    margin: 0;
+    border-radius: 1px;
+    background-color: #1b9265;
+	padding: 10px;
+    text-align: center;
+	position:absolute;
+left: 250px;
+}
+.encabezado3{
+ max-width: 300px;
+  margin: 0;
+  border-radius: 1px;
+       
+}
+
+footer {
+	background-color: #3c3e3f;
+	padding: 10px;
+	text-align: center;
+	position:absolute;
+right: 220px;
+}
+
+.enca{
+    position:absolute;
+        color: white;
+        line-height: 100px;
+        margin: 0;
+        left: 200px;
+        top: 700px;
+    }
+    .parra1{
+        max-width: 200px;
+    border-radius: 1px;
+    background-color: #121312;
+	padding: 10px;
+    color: white;
+    text-align: center;
+	position:absolute;
+    margin: 0;
+        left: 200px;
+        top: 800px;
+    }
+    .parra2{
+        max-width: 200px;
+    border-radius: 1px;
+    background-color: #121312;
+	padding: 10px;
+    color: white;
+    text-align: center;
+	position:absolute;
+    margin: 0;
+        left: 500px;
+        top: 800px;
+    }
+    .parra3{
+        max-width: 200px;
+    border-radius: 1px;
+    background-color: #121312;
+	padding: 10px;
+    color: white;
+    text-align: center;
+	position:absolute;
+    margin: 0;
+        right: 300px;
+        top: 800px;
+    }
